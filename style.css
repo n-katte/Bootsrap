@@ -1,0 +1,49 @@
+body {
+    background: rgb(166, 169, 173);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    color: white;
+    font-weight: 100;
+    font-size: 3rem;
+
+}
+p{
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.5;
+}
+.content{
+    margin-top: 100px;
+}
+#mainNavbar .navbar-brand{
+color:rgb(255, 0, 0);
+font-family: 'Comic Neue', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Oswald', sans-serif;
+/* font-family: 'Poppins', sans-serif */
+font-size: 2.5rem;
+font-weight: 100;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+color: lightyellow;
+}
+#mainNavbar .nav-link:hover{
+    color:rgb(234, 238, 0);
+}
+#mainNavbar.scrolled{
+    background-color: black;
+    transition:background-color 1s ;
+}
+@media (max-width:1200px){
+    #headingGroup h2{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
